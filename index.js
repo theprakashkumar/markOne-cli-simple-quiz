@@ -39,5 +39,5 @@ function play(q, a){
 for(item of qna){
     play(item.q, item.a);
 }
-// pirnt the funal score
+// print the final score
 console.log(chalk.blueBright(`YAY! Your Final Score is ${score}`));
